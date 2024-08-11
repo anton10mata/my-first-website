@@ -1,0 +1,139 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the entire page, using Arial as the primary font and sans-serif as the fallback */
+    margin: 0; /* Removes the default margin around the body */
+    padding: 0; /* Removes the default padding inside the body */
+    background-color: #f5f5f5; /* Sets a light grey background color for the entire page */
+    color: #333; /* Sets the default text color to a dark grey */
+}
+
+/* Header Styles */
+header {
+    background-color: #2e5e4e; /* Sets a dark greenish background color for the header */
+    padding: 20px; /* Adds padding inside the header to create space around the content */
+    text-align: center; /* Centers the text within the header */
+    position: relative; /* Sets the header's position relative to the page, allowing for absolute positioning of child elements */
+}
+
+header h1 {
+    color: white; /* Sets the header text color to white */
+    font-size: 2em; /* Increases the font size of the header text to 2 times the default size */
+    margin: 0; /* Removes any default margin around the header text */
+}
+
+/* Navigation Bar Styles */
+nav {
+    position: absolute; /* Positions the navigation bar absolutely within the header, allowing it to be placed freely */
+    top: 20px; /* Positions the navigation bar 20px from the top of the header */
+    right: 20px; /* Positions the navigation bar 20px from the right side of the header */
+}
+
+nav ul {
+    list-style: none; /* Removes the default bullet points from the list items */
+    margin: 0; /* Removes the default margin around the list */
+    padding: 0; /* Removes the default padding inside the list */
+    display: flex; /* Displays the list items in a horizontal row */
+}
+
+nav ul li {
+    margin-left: 20px; /* Adds space between each list item */
+}
+
+nav ul li a {
+    color: white; /* Sets the color of the links to white */
+    text-decoration: none; /* Removes the default underline from the links */
+    font-size: 1em; /* Sets the font size of the links to the default size */
+}
+
+/* Main Section Styles */
+main {
+    text-align: center; /* Centers the text within the main section */
+    padding: 40px 0; /* Adds 40px of padding to the top and bottom of the main section */
+    background-color: #fdf8f4; /* Sets a light cream background color for the main section */
+}
+
+/* Image Section */
+.image-section {
+    margin-bottom: 40px; /* Adds space below the image section */
+}
+
+.image-section img {
+    max-width: 300px; /* Limits the width of the image to 300px, while maintaining aspect ratio */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
+.image-section p {
+    font-size: 1.2em; /* Increases the font size of the paragraph to 1.2 times the default size */
+    margin: 0; /* Removes any default margin around the paragraph */
+}
+
+/* Contact Form Styles */
+#contact {
+    background-color: #e8d3c3; /* Sets a light brown background color for the contact form */
+    padding: 30px; /* Adds padding inside the contact form to create space around the content */
+    border-radius: 10px; /* Rounds the corners of the contact form */
+    max-width: 600px; /* Limits the width of the contact form to 600px */
+    margin: 0 auto; /* Centers the contact form horizontally on the page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the contact form for depth */
+}
+
+#contact h2 {
+    margin-bottom: 20px; /* Adds space below the contact form heading */
+}
+
+/* Contact Form Layout */
+#contact form {
+    display: flex; /* Uses flexbox for the form layout */
+    flex-direction: column; /* Stacks the form elements vertically */
+    align-items: center; /* Centers the form elements horizontally */
+}
+
+/* Full Width Contact Section */
+.contact-container {
+    width: 100%; /* Makes the contact section span the full width of the viewport */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    background-color: #e8d3c3; /* Light brown background color that goes edge to edge */
+    justify-content: center; /* Centers the form content horizontally */
+}
+
+/* Contact Form Labels */
+#contact label {
+    font-size: 1.1em; /* Slightly increases the font size of the form labels */
+    margin-bottom: 5px; /* Adds space below each label */
+    text-align: left; /* Aligns the text of the labels to the left */
+    width: 100%; /* Makes the labels span the full width of the form */
+}
+
+/* Contact Form Input Fields */
+#contact input {
+    width: 100%; /* Makes the input fields span the full width of the form */
+    padding: 10px; /* Adds padding inside the input fields for better spacing */
+    margin-bottom: 20px; /* Adds space below each input field */
+    border: 1px solid #ccc; /* Adds a light grey border around the input fields */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+}
+
+/* Contact Form Button */
+#contact button {
+    background-color: #333; /* Sets a dark grey background color for the button */
+    color: white; /* Sets the text color of the button to white */
+    padding: 10px 20px; /* Adds padding inside the button */
+    border: none; /* Removes the default border around the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+    width: 100%; /* Makes the button span the full width of the form */
+}
+
+#contact button:hover {
+    background-color: #555; /* Darkens the button color when hovering over it */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2e5e4e; /* Sets the same dark greenish background color for the footer as the header */
+    color: white; /* Sets the text color in the footer to white */
+    text-align: center; /* Centers the text within the footer */
+    padding: 10px 0; /* Adds padding inside the footer to create space around the content */
+    margin-top: 40px; /* Adds space above the footer */
+}
